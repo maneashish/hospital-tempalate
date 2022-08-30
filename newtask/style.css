@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.subdiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: #dae5f2;
+    
+
+}
+.hederdiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.nav a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 15px;
+color: #4a525e;;
+    
+}
+.logo img{   
+    padding: 20px;
+    height: 54px;
+ 
+    border: none;
+
+}
+.ciscom{
+    background-color: #dae5f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    border-radius: 0px 0px 335px 0px;
+    
+}
+.ciscomeImg img{
+    height: 300px;
+}
+.ciscomText h1{
+    text-transform:uppercase ;
+    font-size: 40px;
+    color: blue;
+    
+   
+}
+.text:first-child{
+  color:#817979;
+}
+.ciscomText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 317px;
+}
+.text button{
+        border-radius: 20px 20px;
+        background-color: darkblue;
+        color: white;
+        padding: 4px;
+        font-size: 19px;
+        width: 147px;
+    
+}
+.aboutus{
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+    
+    flex-wrap:wrap;
+}
+.aboutText{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: nowrap;
+    padding: 60px;
+
+}
+.text2 h3,p{
+    padding:20px 0px;
+
+}
+
+.aboutImg img{
+height: 350px;
+margin: 35px;
+    box-shadow: 29px 19px 5px 16px #c6bfbf;
+}
+.text1 p{
+    width: 400px;
+}
+.hedingabout h3{
+    font-weight: 500;
+    font-size: 35px;
+    color: blue;
+}
+.btnabu{
+    border-radius: 20px 20px;
+    border-color: blue;
+    color: blue;
+    width: 175px ;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+.bottomTxt{
+    text-align: center;
+    margin: 35px;
+}
+.bottomTxt p{
+    font-size: 18px;
+    margin: -17px;
+    color:  #847e7e;
+}
+.bottomTxt h1{
+    font-style: italic;
+    color: blue;
+
+}
+.boxcontainer{
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(179, 238, 238);
+    align-items: center;
+}
+.box{
+    display: flex;
+    background-color: purple;
+    color: white;
+    width: 300px;
+    height: 300px;;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+    
+}
+.inner_box span{
+    font-size: 20px;
+    
+}
+.inner_box p{
+font-size: 45px;
+font-weight: bold;
+}
+
+.hollodiv{
+    display: flex;
+    flex-direction: column;
+}
+.holloImg img{
+width: 100%;
+height: 500px;
+}
+.blued{
+    background-color: blue;
+    height: 15px;
+    width: 100%;
+}
+.whited{
+    background-color:white;
+    height: 20px;
+    width: 100%;
+}
+.greend{
+    background-color:green;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
